@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Microbit
+comment0.text=\n\ This\ class\ controls\ a\ micro\:bit\ via\ bluetooth.\ It\ inherits\ almost\ \n\ all\ its\ functionality\ from\ the\ abstract\ class\ Robot.\ The\ only\ methods\ it\ needs\ here\ are\ constructors,\ \n\ which\ call\ a\ function\ that\ checks\ whether\ or\ not\ it\ is\ a\ micro\:bit.\n\ \n\ Mike\ Yuan\ and\ Bambi\ Breewer,\ BirdBrain\ Technologies\ LLC\n\ November\ 2018\n
+comment1.params=
+comment1.target=boolean\ isMicrobit()
+comment1.text=\ This\ function\ tries\ to\ read\ sensor\ 4\ (the\ Hummingbird\ battery)\ to\ determine\ whether\ \nthe\ device\ is\ a\ Hummingbird\ or\ a\ micro\:bit.\ It\ returns\ true\ if\ the\ device\ is\ a\ micro\:bit.
+comment2.params=
+comment2.target=Microbit()
+comment2.text=\n\ default\ constructor\ for\ the\ library.\ Construct\ the\ baseUrl\ and\ set\ the\ default\ device\ to\ be\ A\n
+comment3.params=device
+comment3.target=Microbit(java.lang.String)
+comment3.text=\n\ constructor\ for\ the\ library.\ Construct\ the\ baseUrl\ and\ set\ the\ default\ device\ to\ be\ input.\n\n\ @param\ device\ the\ input\ device\ that\ will\ be\ specified\ by\ the\ user.\n
+numComments=4
